@@ -1,0 +1,16 @@
+
+h1 {
+    position: absolute;
+    left : 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 8em;
+    padding: 6px;
+    margin:3px;
+   
+}
