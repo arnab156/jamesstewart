@@ -1,27 +1,70 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
-import { Container, Row, Col, Button } from "reactstrap";
+import {
+    Container,
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem } from 'reactstrap';
 
-class Home extends Component {
-  render() {
-    return (
-      <Container>
-        <Row>
-        
-          <Col className="titlename">Hello, my name is James Stewart and I am here to recruit you.</Col>
-        </Row> 
-        <Row>
-        {/* <Col xs="6" sm="4"></Col> */}
-        <Col className="titlename"> <Button color="danger" size="lg" block>
-        <Link to="/about" className="textStyle">Warp Here</Link>
-        </Button></Col>
-        </Row>
-        
+    export default class Home extends React.Component {
+        constructor(props) {
+          super(props);
+      
+          this.toggle = this.toggle.bind(this);
+          this.state = {
+            isOpen: false
+          };
+        }
+        toggle() {
+          this.setState({
+            isOpen: !this.state.isOpen
+          });
+        }
+        render() {
+          return (
+           <Container className="font"> 
+              <Navbar color="light" light expand="md">
+                <NavbarBrand href="/">James Stewart</NavbarBrand>
+                <NavbarToggler onClick={this.toggle} />
+                <Collapse isOpen={this.state.isOpen} navbar>
+                  <Nav className="ml-auto" navbar>
+                    <NavItem>
+                      <NavLink href="/components/">Projects</NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink href="https://github.com/reactstrap/reactstrap">CV</NavLink>
+                    </NavItem>
+                    <UncontrolledDropdown nav inNavbar>
+                      <DropdownToggle nav caret>
+                        Contact
+                      </DropdownToggle>
+                      <DropdownMenu right>
+                        <DropdownItem>
+                          LinkedIn
+                        </DropdownItem>
+                        <DropdownItem>
+                          Email Me
+                        </DropdownItem>
+                        <DropdownItem divider />
+                        <DropdownItem>
+                          Text Me
+                        </DropdownItem>
+                      </DropdownMenu>
+                    </UncontrolledDropdown>
+                  </Nav>
+                </Collapse>
+              </Navbar>
 
-      </Container>
-    );
-  }
-}
 
-export default Home;
+              </Container>
+          );
+        }
+      }
