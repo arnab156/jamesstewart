@@ -44,4 +44,6 @@ body{
   100% {background-position: 0% 50%; }
 }
 
-body {font-family: 'Cinzel', serif;}
+.font{
+  font-family: 'Cinzel', serif;
+}

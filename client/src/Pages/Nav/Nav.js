@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./Nav.css";
 import {
     Container,
     Collapse,
@@ -14,7 +14,7 @@ import {
     DropdownMenu,
     DropdownItem } from 'reactstrap';
 
-    export default class About extends React.Component {
+    export default class Home extends React.Component {
         constructor(props) {
           super(props);
       
@@ -30,7 +30,7 @@ import {
         }
         render() {
           return (
-           <Container className="font"> 
+        <Container className="font"> 
               <Navbar color="light" light expand="md">
                 <NavbarBrand href="/">James Stewart</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
@@ -63,9 +63,7 @@ import {
                 </Collapse>
               </Navbar>
 
-
-              {/* <h1 className="font">James Stewart</h1> */}
-              </Container>
+ </Container>
           );
         }
       }
