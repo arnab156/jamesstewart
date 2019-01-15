@@ -9,12 +9,12 @@ class Home extends Component {
       <Container>
         <Row>
         
-          <Col className="titlename">Hello, my name is James</Col>
-        </Row>
+          <Col className="titlename">Hello, my name is James Stewart and I am here to recruit you.</Col>
+        </Row> 
         <Row>
         {/* <Col xs="6" sm="4"></Col> */}
         <Col className="titlename"> <Button color="danger" size="lg" block>
-        <Link to="/about" className="textStyle">Enter Here</Link>
+        <Link to="/about" className="textStyle">Warp Here</Link>
         </Button></Col>
         </Row>
         
