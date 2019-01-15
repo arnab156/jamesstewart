@@ -1,16 +1,26 @@
 
-h1 {
+.titlename {
     position: absolute;
-    left : 50%;
-    right: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Cinzel', serif;
     color: white;
     font-weight: 200;
     text-transform: uppercase;
     text-align: center;
     font-size: 8em;
-    padding: 6px;
-    margin:3px;
-   
 }
+
+.textStyle{
+    color: white;
+    font-weight: 20;
+}
+
+@media only screen and (max-width: 600px) {
+    .titlename{
+        font-weight: 50;
+        font-size: 2em;
+    }
+    .textStyle{
+        font-weight: 0;
+    }
+  }
+

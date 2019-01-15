@@ -32,6 +32,7 @@
 }
 
 body{
+  
   background: linear-gradient(132deg, silver,#00264b);
   background-size: 1500%, 900%;
   animation: BackgroundGradient 30s ease infinite;
@@ -42,3 +43,5 @@ body{
   50% {background-position: 100% 50%; }
   100% {background-position: 0% 50%; }
 }
+
+body {font-family: 'Cinzel', serif;}

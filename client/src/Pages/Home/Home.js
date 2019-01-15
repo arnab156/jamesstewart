@@ -1,14 +1,26 @@
 import React, { Component } from "react";
-import './Home.css';
+import "./Home.css";
+import { Link } from "react-router-dom";
+import { Container, Row, Col, Button } from "reactstrap";
 
 class Home extends Component {
   render() {
-    return <div>
-        <br/>  <br/>
-        <h1> Hello, my name is James</h1>
-        <p> My Name is James</p>
+    return (
+      <Container>
+        <Row>
         
-        </div>
+          <Col className="titlename">Hello, my name is James</Col>
+        </Row>
+        <Row>
+        {/* <Col xs="6" sm="4"></Col> */}
+        <Col className="titlename"> <Button color="danger" size="lg" block>
+        <Link to="/about" className="textStyle">Enter Here</Link>
+        </Button></Col>
+        </Row>
+        
+
+      </Container>
+    );
   }
 }
 
