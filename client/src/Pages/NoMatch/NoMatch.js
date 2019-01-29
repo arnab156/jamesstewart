@@ -1,5 +1,22 @@
 import React from "react";
+import { Container, Jumbotron, Alert } from "reactstrap";
 
-const NoMatch = () => <div className=" jumbotron text-center text-danger">This page does not exist. Please click on the navigation bar to proceed.</div>;
+
+const NoMatch = () => 
+<Container >
+      <br/>
+        <Jumbotron fluid>
+          <Container fluid >
+          
+
+          <Alert color="danger">
+          This page does not exist. Please click on the navigation bar to proceed.
+      </Alert>
+
+
+                
+          </Container>
+        </Jumbotron>
+      </Container>
 
 export default NoMatch;

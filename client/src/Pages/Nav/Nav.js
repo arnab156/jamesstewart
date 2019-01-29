@@ -40,7 +40,8 @@ import {
                       <NavLink href="/components/">Projects</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink href="https://github.com/reactstrap/reactstrap">CV</NavLink>
+                      {/* <NavLink href="https://github.com/reactstrap/reactstrap">CV</NavLink> */}
+                      <NavLink href="/CV">CV</NavLink>
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                       <DropdownToggle nav caret>
