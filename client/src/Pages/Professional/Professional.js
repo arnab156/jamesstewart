@@ -8,36 +8,24 @@ const Prof = () =>
         <Jumbotron fluid> 
           <Container fluid className="font">
           
-          <h2 className="text-center"> EDUCATION</h2>
+          <h2 className="text-center"> PROFESSIONAL AFFILIATIONS</h2>
           <hr/>
-          <h4>Doctorate of Education-ABD  </h4> 
-          <p className="floatLeft">Depaul University, Chicago IL</p>
-          <p className="floatRight">January 2015 – June 2019 (Expected)</p>
+          <h4>National Association of Student Personnel Administrators(NASPA)</h4> 
+
           <br/>
           <ul className="clearFloat">
-          
+          <li>Serve as National Chair, Adult Learners and Students with Children Knowledge Community (March 2016-2018).</li>
+          <li>Technology and Communications Chair for the Adult Learners and Students with Children Knowledge Community (March 2012-2016).</li>
+          <li>Served on 2013, 2014, 2015, 2017, 2018 Regional Conference Committees (Nov. 2012- 2018). </li>
           </ul>
 {/* --------------------------------------------------------------------------------------------------------- */}
           <br/><br/>
-          <h4>Master of Education in Higher Education(4.0 GPA)</h4> 
-          <p className="floatLeft">University of Arkansas, Fayetteville, AR</p>
-          <p className="floatRight">Fall 2005 – May 2007</p>
-          <br/>
+          <h4>Illinois Board of Higher Education</h4> 
           <ul className="clearFloat">
-        
+            <li>Adult Completion Committee</li>
           </ul>
 {/* --------------------------------------------------------------------------------------------------------- */}
-          <br/><br/>
-          <h4>Bachelor of Science in Economics and Business Administration-Management)</h4> 
-          <p className="floatLeft">Lyon College, Batesville, AR</p>
-          <p className="floatRight">Fall 2000 - Spring 2004</p>
-          <br/>
-          <ul className="clearFloat">
-        
-          </ul>
-
-{/* --------------------------------------------------------------------------------------------------------- */}
-
+   
           
           </Container>
         </Jumbotron>

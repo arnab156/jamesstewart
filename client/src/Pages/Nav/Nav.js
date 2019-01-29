@@ -52,7 +52,8 @@ import {
                       </DropdownToggle>
                       <DropdownMenu right>
                         <DropdownItem>
-                          LinkedIn
+                          {/* <Link to="https://www.linkedin.com/in/jstewart22/">LinkedIn</Link> */}
+                          <NavLink href="https://www.linkedin.com/in/jstewart22/" target="_blank">LinkedIn</NavLink>
                         </DropdownItem>
                         <DropdownItem>
                           Contact
