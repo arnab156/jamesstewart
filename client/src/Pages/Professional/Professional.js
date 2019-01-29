@@ -11,8 +11,7 @@ const Prof = () =>
           <h2 className="text-center"> PROFESSIONAL AFFILIATIONS</h2>
           <hr/>
           <h4>National Association of Student Personnel Administrators(NASPA)</h4> 
-
-          <br/>
+          {/* <br/> */}
           <ul className="clearFloat">
           <li>Serve as National Chair, Adult Learners and Students with Children Knowledge Community (March 2016-2018).</li>
           <li>Technology and Communications Chair for the Adult Learners and Students with Children Knowledge Community (March 2012-2016).</li>

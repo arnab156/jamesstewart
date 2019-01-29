@@ -52,11 +52,10 @@ import {
                       </DropdownToggle>
                       <DropdownMenu right>
                         <DropdownItem>
-                          {/* <Link to="https://www.linkedin.com/in/jstewart22/">LinkedIn</Link> */}
                           <NavLink href="https://www.linkedin.com/in/jstewart22/" target="_blank">LinkedIn</NavLink>
                         </DropdownItem>
                         <DropdownItem>
-                          Contact
+                        <a className = "black-text" href="mailto:james@madeofchicago.com<James Stewart>">Contact</a>
                         </DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem>
