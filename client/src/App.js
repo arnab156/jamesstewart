@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from "./Pages/Home/Home";
 import NoMatch from "./Pages/NoMatch/NoMatch";
-import Projects from "./Pages/Project/Project";
+// import Projects from "./Pages/Project/Project";
 import Navbar from "./Pages/Nav/Nav";
 import CV from "./Pages/CV/CV";
 import Edu from "./Pages/Education/Edu";
