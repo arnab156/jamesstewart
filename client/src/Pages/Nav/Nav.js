@@ -43,20 +43,25 @@ import {
                       {/* <NavLink href="https://github.com/reactstrap/reactstrap">CV</NavLink> */}
                       <NavLink href="/experience">Experience</NavLink>
                     </NavItem>
+                    <NavItem>
+                      <NavLink href="/presentations">Presentations</NavLink>
+                    </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                       <DropdownToggle nav caret>
-                        Contact
+                        More
                       </DropdownToggle>
                       <DropdownMenu right>
                         <DropdownItem>
                           LinkedIn
                         </DropdownItem>
                         <DropdownItem>
-                          Email Me
+                          Contact
                         </DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem>
-                          Text Me
+                        <NavItem>
+                          <NavLink href="/proaff">Professional Affiliations</NavLink>
+                       </NavItem>
                         </DropdownItem>
                       </DropdownMenu>
                     </UncontrolledDropdown>

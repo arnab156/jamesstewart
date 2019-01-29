@@ -7,6 +7,8 @@ import Projects from "./Pages/Project/Project";
 import Navbar from "./Pages/Nav/Nav";
 import CV from "./Pages/CV/CV";
 import Edu from "./Pages/Education/Edu";
+import Presentation from "./Pages/Presentation/Presentation";
+import ProfesionalAff from "./Pages/Professional/Professional";
 
 const App = () => (
   <Router>
@@ -18,6 +20,8 @@ const App = () => (
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/experience" component={CV} />
         <Route exact path="/education" component={Edu} />
+        <Route exact path="/presentations" component={Presentation} />
+        <Route exact path="/proaff" component={ProfesionalAff} />
         <Route component={NoMatch} />
       </Switch>
     </div>
