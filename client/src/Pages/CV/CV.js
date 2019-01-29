@@ -8,7 +8,7 @@ const CV = () =>
         <Jumbotron fluid> 
           <Container fluid className="font">
           
-          <h2 className="text-center"> HIGHER EDUCATION EXPERIENCE</h2>
+          <h2 className="text-center"> HIGHER EDUCATION EXPERIENCES</h2>
           <hr/>
           <h4>Director, Adult, Veteran and Commuter Student Affairs </h4> 
           <p className="floatLeft">Depaul University, Chicago IL</p>
@@ -25,7 +25,7 @@ const CV = () =>
           <li>  Launched new Commuter community-building team (EDGE) to create programming for commuters.</li>
           <li>  Started new programming and event efforts to activate Loop (downtown) campus including Loop Block Party in Chicago city park which won Innovation Award within Student Affairs 2017</li>
           </ul>
-
+{/* --------------------------------------------------------------------------------------------------------- */}
           <br/><br/>
           <h4>Assistant Director, Adult Student Affairs </h4> 
           <p className="floatLeft">Depaul University, Chicago IL</p>
@@ -41,7 +41,7 @@ const CV = () =>
           <li>Served on divisional communication, assessment, and on-boarding committees. Served on division strategic planning committees in 2013 and 2016.</li>
           <li>Served as Staff professional for Chicago Quarter Explorer Class in Fall 2014-2018.</li>
           </ul>
-
+{/* --------------------------------------------------------------------------------------------------------- */}
           <br/><br/>
           <h4>Assistant Director, Student Development</h4> 
           <p className="floatLeft">University of Illinois Chicago, Chicago IL</p>
@@ -60,6 +60,76 @@ const CV = () =>
           <li>Partnered with over 15 offices on-campus to better bring programs and opportunities to the commuting students and a number of outside agencies like Metropolitan Tenants Organization and Active Transportation Alliance.</li>
           <li>Served on campus-wide committees including the Student Affairs Assessment Committee, Sustainability Strategic Planning Committee, Basketball Marketing Committee, University Judicial Board, and a professional development committee.</li>
           <li>Served for two years as co-led of the Chancellor’s Student Service and Leadership Awards ceremony which recognizes service and leadership accomplishments of over 400 students each year.</li>
+          </ul>
+{/* --------------------------------------------------------------------------------------------------------- */}
+          <br/><br/>
+          <h4>Assistant Director of Campus Life</h4> 
+          <p className="floatLeft">Knox College, Galesburg, IL</p>
+          <p className="floatRight">Summer 2007- January 2010</p>
+          <br/>
+          <ul className="clearFloat">
+          <li>Oversaw daily operation and served as primary administrator for four residential buildings, supervising 12 resident assistants, conducting conduct meetings, follow-up on damages, and community building.</li>
+          <li>Led effort to update and reorganize RA training in class, fall training, and continuing monthly sessions.</li>
+          <li>Forwarded Knox’s commitment to diversity by advocating and guiding process for approval of Gender- Neutral housing and accommodations for transgender students.</li>
+          <li>Served in weekend on-call rotation.</li>
+          <li>Coordinated all aspects of Commencement-related activities, including receptions, traditions like Pumphandle, the ceremony, and post-ceremony luncheon for over 2000 attendees. Handled some logistics for high-profile speakers such as former Secretary of State Madeline Albright.</li>
+          <li>Planed, executed, and evaluated Family Weekend and Homecoming activities.</li>
+          <li>Developed and led committee in building the Midwest Small College Student Development retreat held at Knox. First speaker was Gwen Dungy, NASPA Executive Director.</li>
+          </ul>
+  {/* --------------------------------------------------------------------------------------------------------- */}
+          <br/><br/>
+          <h4>Graduate Assistant</h4> 
+          <p className="floatLeft">Pat Walker Health Center, University of Arkansas, Fayetteville, AR</p>
+          <p className="floatRight">Fall 2005 – May 2007</p>
+          <br/>
+          <ul className="clearFloat">
+          <li>Developed learning outcomes and goals for entire health center.</li>
+          <li>Conducted retention study to analyze impact of individualized attention from Health Center on retention</li>
+          <li>Chair of Marketing Committee within the Pat Walker Health Center.</li>
+          <li>Assisted in evaluation of health orientation program to international students.</li>
+          <li>Developed a health insurance education program consisting of seminars, coordination with Career Development on educational materials, in-clinic education, and a website.</li>
+          <li>Led implementation of electronic services to better serve students: consisting of leading a bid process, doing evaluations internally and externally, planned rollout, and staff training schedule.</li>
+          <li>Graduate advisor to Student Health Advisory Committee and headed reinstatement of Vice-Chancellors’ University Health Advisory Committee as an oversight group.</li>
+          </ul>          
+{/* --------------------------------------------------------------------------------------------------------- */}
+          <br/><br/>
+          <h4>Intern</h4> 
+          <p className="floatLeft">Office of First Year Experience, University of Arkansas, Fayetteville, AR</p>
+          <p className="floatRight">August 2006 - December 2006</p>
+          <br/>
+          <ul className="clearFloat">
+          <li>Led assessment of ROCK Camp, an overnight experience for first-year students.</li>
+          <li>Planned, promoted, executed, and evaluated ROCK Camp reunions, specifically facilitated reunion addressing diversity and social justice issues.</li>
+          <li>Represented office of First Year Experience on committee to develop a Diversity Leadership Institute to train new campus leaders each spring on issues of diversity and social justice.</li>
+          </ul>
+{/* --------------------------------------------------------------------------------------------------------- */}
+          <br/><br/>
+          <h4>NODA (National Orientation Directors Association) Intern</h4> 
+          <p className="floatLeft">Elmhurst College, Elmhurst, IL</p>
+          <p className="floatRight">May 2006 - August 2006</p>
+          <br/>
+          <ul className="clearFloat">
+          <li>Executed eleven Summer Advising and Registration days for approximately 500 incoming first-year and 280 incoming transfer students.  Worked in collaboration with Office of Advising, Office of the Registrar, Computing Services, Facilities Management, Office of the Dean of the Faculty, and more.</li>
+          <li>Instituted new electronic check-in method and assisted in launching use of one-stop shop for more efficient completion of tasks required of incoming students.</li>
+          </ul>
+{/* --------------------------------------------------------------------------------------------------------- */}
+          
+          </Container>
+        </Jumbotron>
+
+        <Jumbotron>
+          <Container fluid className="font">
+          <h2 className="text-center"> NON-HIGHER EDUCATION EXPERIENCES</h2>
+          <hr/>
+          <h4>International New Markets and Strategic Planning Specialist</h4> 
+          <p className="floatLeft">Wal-Mart International Home Office, Bentonville, AR</p>
+          <p className="floatRight">June 2004 - August 2005</p>
+          <br/>
+          <ul className="clearFloat">
+          <li>Instituted an electronic database of potential countries and acquisition opportunity companies.</li>
+          <li>Assisted in five-year strategic planning process in 2004 and 2005.</li>
+          <li>Conducted economic research to support Directors and Vice-Presidents.</li>
+          <li>Planned, coordinated, executed, emceed, and evaluated international’s division-wide Holiday Party involving over two-hundred members and their families from a variety of cultures.</li>
           </ul>
           </Container>
         </Jumbotron>

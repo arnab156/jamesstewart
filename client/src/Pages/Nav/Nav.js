@@ -37,11 +37,11 @@ import {
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="ml-auto" navbar>
                     <NavItem>
-                      <NavLink href="/components/">Projects</NavLink>
+                      <NavLink href="/education">Education</NavLink>
                     </NavItem>
                     <NavItem>
                       {/* <NavLink href="https://github.com/reactstrap/reactstrap">CV</NavLink> */}
-                      <NavLink href="/CV">CV</NavLink>
+                      <NavLink href="/experience">Experience</NavLink>
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                       <DropdownToggle nav caret>
