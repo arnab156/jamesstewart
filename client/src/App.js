@@ -17,11 +17,11 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/experience" component={CV} />
-        <Route exact path="/education" component={Edu} />
-        <Route exact path="/presentations" component={Presentation} />
-        <Route exact path="/proaff" component={ProfesionalAff} />
+        {/* <Route exact path="/projects" component={Projects} /> */}
+        <Route  path="/experience" component={CV} />
+        <Route  path="/education" component={Edu} />
+        <Route  path="/presentations" component={Presentation} />
+        <Route  path="/proaff" component={ProfesionalAff} />
         <Route component={NoMatch} />
       </Switch>
     </div>
