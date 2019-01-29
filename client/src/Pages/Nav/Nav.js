@@ -13,6 +13,8 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem } from 'reactstrap';
+    import { Link } from "react-router-dom";
+    
 
     export default class Home extends React.Component {
         constructor(props) {
@@ -37,14 +39,18 @@ import {
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav className="ml-auto" navbar>
                     <NavItem>
-                      <NavLink href="/education">Education</NavLink>
+                    <NavLink> <Link to="/education" className="colorMatch">Education</Link></NavLink>
+                    {/* <Link to="/education" className="brand-title">Education</Link> */}
+                      {/* <NavLink href="/education">Education</NavLink> */}
                     </NavItem>
                     <NavItem>
                       {/* <NavLink href="https://github.com/reactstrap/reactstrap">CV</NavLink> */}
-                      <NavLink href="/experience">Experience</NavLink>
+                      <NavLink><Link to="/experience" className="colorMatch">Experience</Link></NavLink>
+                      {/* <NavLink href="/experience">Experience</NavLink> */}
                     </NavItem>
                     <NavItem>
-                      <NavLink href="/presentations">Presentations</NavLink>
+                    <NavLink><Link to="/presentations" className="colorMatch">Presentation</Link></NavLink>
+                      {/* <NavLink href="/presentations">Presentations</NavLink> */}
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                       <DropdownToggle nav caret>
@@ -52,15 +58,17 @@ import {
                       </DropdownToggle>
                       <DropdownMenu right>
                         <DropdownItem>
-                          <NavLink href="https://www.linkedin.com/in/jstewart22/" target="_blank">LinkedIn</NavLink>
+                          <NavLink href="https://www.linkedin.com/in/jstewart22/" className="colorMatch" target="_blank">LinkedIn</NavLink>
                         </DropdownItem>
                         <DropdownItem>
-                        <a className = "black-text" href="mailto:james@madeofchicago.com<James Stewart>">Contact</a>
+                        <a className = "black-text" href="mailto:james@madeofchicago.com<James Stewart>" className="colorMatch">Contact</a>
                         </DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem>
                         <NavItem>
-                          <NavLink href="/proaff">Professional Affiliations</NavLink>
+                        <NavLink> <Link to="/proaff" className="colorMatch">Professional Affiliations</Link></NavLink>
+                        
+                          {/* <NavLink href="/proaff">Professional Affiliations</NavLink> */}
                        </NavItem>
                         </DropdownItem>
                       </DropdownMenu>
