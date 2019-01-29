@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import { Container, Jumbotron } from "reactstrap";
+import ProfilePic from "../../Components/Photo/ProfilePhoto";
+import Bio from "../../Components/Bio/Bio";
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -22,10 +24,12 @@ export default class Home extends React.Component {
       <br/>
         <Jumbotron fluid>
           <Container fluid>
-            <h1 className="display-3">James Stewart</h1>
+          <ProfilePic/>
+            {/* <h1 >James Stewart</h1>
             <p className="lead">
               This is where a bio will come with a short abstract of career.
-            </p>
+            </p> */}
+            <Bio />
           </Container>
         </Jumbotron>
       </Container>
