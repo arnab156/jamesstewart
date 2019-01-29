@@ -9,6 +9,8 @@ const ProfilePic = () => (
         His research interests are retention and student success, activism, technology, and the intersection of all.  
         Personally, he is an avid follower of news, technology and loves Star Trek.
     </p>
+    <br/>
+    <p><strong>Gallup&#174; Strengths:</strong> Empathy | Positivity | Developer | Futurist </p>
     </div>
         );
 
