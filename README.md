@@ -1,2 +1,4 @@
 # jamesstewart
-Deployed site: jamesstewart.herokuapp.com
+# Deployed site: http://www.james-stewart.us
+
+Technologies used: react strap and subtle background animation.
