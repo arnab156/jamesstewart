@@ -61,13 +61,12 @@ import {
                           <NavLink href="https://www.linkedin.com/in/jstewart22/" className="colorMatch" target="_blank">LinkedIn</NavLink>
                         </DropdownItem>
                         <DropdownItem>
-                        <a className = "black-text" href="mailto:james@madeofchicago.com<James Stewart>" className="colorMatch">Contact</a>
+                        <a href="mailto:james@madeofchicago.com<James Stewart>" className="colorMatch">Contact</a>
                         </DropdownItem>
                         <DropdownItem divider />
                         <DropdownItem>
                         <NavItem>
                         <NavLink> <Link to="/proaff" className="colorMatch">Professional Affiliations</Link></NavLink>
-                        
                           {/* <NavLink href="/proaff">Professional Affiliations</NavLink> */}
                        </NavItem>
                         </DropdownItem>
