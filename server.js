@@ -12,7 +12,12 @@ app.use(express.static("client/build"));
 app.get("*", function(req, res){
   console.log("hello");
   res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-})
+});
+
+// var http = require("http");
+// setInterval(function() {
+//   http.get("http://jamesstewart.herokuapp.com");
+// }, 300000);
 
 // Start the API server
 app.listen(PORT, function() {
